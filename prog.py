@@ -5,3 +5,9 @@ def num_vowels(string):
     for c in string:
         if c in 'aeiou':
             count += 1
+            if count => 2:
+                return True
+            else:
+                False
+
+        
