@@ -9,3 +9,9 @@ def num_vowels(string):
         #if it is, add 1 to counter
         if c in 'aeiou':
             count += 1
+            if count => 2:
+                return True
+            else:
+                False
+
+        
